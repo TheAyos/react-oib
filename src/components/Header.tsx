@@ -7,7 +7,9 @@ const Header = (props: Props) => {
 
     return (
         <>
-            <h1>Simulateur Baccalauréat OIB</h1>
+            <header>
+                <h1>Simulateur Baccalauréat OIB</h1>
+            </header>
             <p>Ce simulateur vous permet de calculer votre moyenne au bac et de prédire votre mention.</p>
             <p>C'est le seul simulateur tenant compte de la filière OIB en {schoolYear} !</p>
         </>

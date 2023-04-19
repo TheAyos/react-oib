@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
+import ResultsInput from "./components/ResultsInput";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
     return (
         <div className="App">
             <Header schoolYear={schoolYear} />
+
+            <ResultsInput />
 
             <div className="card">
                 <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
