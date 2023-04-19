@@ -1,3 +1,7 @@
+# Vite related
+.vite
+*.png
+
 # Logs
 logs
 *.log
